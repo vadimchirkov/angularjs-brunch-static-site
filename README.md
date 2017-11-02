@@ -12,12 +12,11 @@ This is a starter project for a web application based on [AngularJS](http://angu
 * PostCSS plugins
 
 ### Installing npm dependencies
-* nmp install
+* npm install
 
 ### Running the app during development
-* nmp start
+* npm start
 
 ### Running the app in production
-* nmp prod
-
+* npm prod
 
