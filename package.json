@@ -1,0 +1,35 @@
+{
+  "name": "angular-brunch-static-site",
+  "description": "Description",
+  "author": "DS",
+  "version": "0.0.1",
+  "license": "CC0",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "start": "brunch watch --server",
+    "prod": "brunch build --production"
+  },
+  "dependencies": {
+    "angular": "^1.6.2",
+    "angular-ui-router": "^0.3.2"
+  },
+  "devDependencies": {
+    "angular-sanitize": "^1.6.6",
+    "auto-reload-brunch": "^2.0.0",
+    "autoprefixer": "^7.1.6",
+    "babel-brunch": "~6.0.0",
+    "brunch": "^2.4.0",
+    "clean-css-brunch": "^2.0.0",
+    "css-brunch": "^2.0.0",
+    "jade-brunch": "^2.8.0",
+    "javascript-brunch": "^2.0.0",
+    "js-yaml": "^3.10.0",
+    "marked": "^0.3.6",
+    "postcss-brunch": "^2.1.0",
+    "sass-brunch": "^2.10.4",
+    "uglify-js-brunch": "^2.0.0"
+  }
+}
