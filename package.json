@@ -3,7 +3,7 @@
   "description": "Description",
   "author": "DS",
   "version": "0.0.1",
-  "license": "CC0",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": ""
@@ -22,14 +22,13 @@
     "autoprefixer": "^7.1.6",
     "babel-brunch": "~6.0.0",
     "brunch": "^2.4.0",
-    "clean-css-brunch": "^2.0.0",
-    "css-brunch": "^2.0.0",
     "jade-brunch": "^2.8.0",
     "javascript-brunch": "^2.0.0",
     "js-yaml": "^3.10.0",
     "marked": "^0.3.6",
-    "postcss-brunch": "^2.1.0",
+    "postcss-csso": "^3.0.0",
     "sass-brunch": "^2.10.4",
+    "spostcss-brunch": "^1.0.1",
     "uglify-js-brunch": "^2.0.0"
   }
 }

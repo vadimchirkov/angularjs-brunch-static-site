@@ -7,6 +7,12 @@ import 'angular-ui-router';
 var app = angular.module('app', [
     'ui.router', 'ngSanitize'
 ])
+app.config(["$locationProvider", function($locationProvider) {
+    $locationProvider.html5Mode(true).hashPrefix('!'); // remove url prefix
+}]);
+app.config(['$httpProvider', function($httpProvider) {
+    $httpProvider.defaults.cache = true; // enable http caching
+}]);
 
 app.controller('indexCtrl', function($scope, $parse, $http, $rootScope) {
 

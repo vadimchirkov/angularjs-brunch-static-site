@@ -1,12 +1,4 @@
 exports.config = {
-    files: {
-        javascripts: {
-            joinTo: {
-                'js/app.js': [/^(?!app)/, /^app/]
-            }
-        },
-        stylesheets: { joinTo: 'css/app.css' }
-    },
     plugins: {
         jade: {
             prety: true
@@ -14,7 +6,17 @@ exports.config = {
         postcss: {
             processors: [
                 require('autoprefixer')(['last 8 versions']),
+                require('postcss-csso')(),
+
             ]
-        },
+        }
     },
+    files: {
+        javascripts: {
+            joinTo: {
+                'js/app.js': [/^(?!app)/, /^app/]
+            }
+        },
+        stylesheets: { joinTo: 'css/app.css' }
+    }
 }
